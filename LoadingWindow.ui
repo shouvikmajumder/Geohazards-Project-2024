@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoadingWindow</class>
+ <widget class="QMainWindow" name="LoadingWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>878</width>
+    <height>637</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+
+QMainWindow{
+background: rgb(255, 255, 255);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_8">
+    <item row="2" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="minimumSize">
+       <size>
+        <width>831</width>
+        <height>441</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>831</width>
+        <height>500</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{background: rgb(55, 113, 233);}
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_9">
+       <item row="5" column="0">
+        <widget class="QFrame" name="frame_10">
+         <property name="minimumSize">
+          <size>
+           <width>805</width>
+           <height>57</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>805</width>
+           <height>57</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame{
+background: #F5FAFE;
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="1">
+           <widget class="QComboBox" name="comboBox">
+            <property name="styleSheet">
+             <string notr="true">QComboBox{
+color: black;
+}</string>
+            </property>
+            <item>
+             <property name="text">
+              <string>PSU DAS DATA</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Pittsburgh DAS DATA</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_23">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: rgb(16, 19, 7);
+font-weight: bold;
+font-size: 16px;
+}</string>
+            </property>
+            <property name="text">
+             <string>System Name</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QFrame" name="frame_5">
+         <property name="minimumSize">
+          <size>
+           <width>805</width>
+           <height>57</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>805</width>
+           <height>57</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame{
+background: #F5FAFE;
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_21">
+            <property name="minimumSize">
+             <size>
+              <width>646</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>646</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: rgb(16, 19, 7);
+font-weight: bold;
+font-size: 16px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Channels </string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEdit_channel">
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+background: rgb(255,255,255);
+color: rgb(11, 7, 4);
+}</string>
+            </property>
+            <property name="text">
+             <string>0-2432</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QFrame" name="frame_11">
+         <property name="minimumSize">
+          <size>
+           <width>805</width>
+           <height>57</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>805</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame{
+background: #F5FAFE;
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_27">
+            <property name="minimumSize">
+             <size>
+              <width>386</width>
+              <height>16</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>386</width>
+              <height>16</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: rgb(16, 19, 7);
+font-weight: bold;
+font-size: 16px;
+}</string>
+            </property>
+            <property name="text">
+             <string>File Format</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QComboBox" name="comboBox_5">
+            <property name="maximumSize">
+             <size>
+              <width>103</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QComboBox{
+color: black;
+}</string>
+            </property>
+            <item>
+             <property name="text">
+              <string>tdms</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>h5</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QFrame" name="frame_9">
+         <property name="minimumSize">
+          <size>
+           <width>805</width>
+           <height>57</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>805</width>
+           <height>57</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame{
+background: #F5FAFE;
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="0" column="0" rowspan="2" colspan="2">
+           <widget class="QLabel" name="label_22">
+            <property name="minimumSize">
+             <size>
+              <width>690</width>
+              <height>16</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>690</width>
+              <height>16</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: rgb(16, 19, 7);
+font-weight: bold;
+font-size: 16px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Sampling Rate</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEdit_fs">
+            <property name="minimumSize">
+             <size>
+              <width>81</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>81</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+background: rgb(255,255,255);
+color: rgb(11, 7, 4);
+}</string>
+            </property>
+            <property name="text">
+             <string>50</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QFrame" name="frame_3">
+         <property name="minimumSize">
+          <size>
+           <width>805</width>
+           <height>57</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>805</width>
+           <height>57</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame{
+background: #F5FAFE;
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_7">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_5">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: rgb(16, 19, 7);
+font-weight: bold;
+font-size: 16px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Start Time</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="label_7">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: black;
+}</string>
+            </property>
+            <property name="text">
+             <string>Year</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLineEdit" name="lineEdit_stime_1">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+background: rgb(255,255,255);
+color: rgb(11, 7, 4);
+}
+</string>
+            </property>
+            <property name="text">
+             <string>2021</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QLabel" name="label_8">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: black;
+}</string>
+            </property>
+            <property name="text">
+             <string>Month</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QLineEdit" name="lineEdit_stime_2">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+background: rgb(255,255,255);
+color: rgb(11, 7, 4);
+}
+</string>
+            </property>
+            <property name="text">
+             <string>8</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="5">
+           <widget class="QLabel" name="label_9">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: black;
+}</string>
+            </property>
+            <property name="text">
+             <string>Day</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="6">
+           <widget class="QLineEdit" name="lineEdit_stime_3">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+background: rgb(255,255,255);
+color: rgb(11, 7, 4);
+}
+</string>
+            </property>
+            <property name="text">
+             <string>18</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="7">
+           <widget class="QLabel" name="label_10">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: black;
+}</string>
+            </property>
+            <property name="text">
+             <string>Hour</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="8">
+           <widget class="QLineEdit" name="lineEdit_stime_4">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+background: rgb(255,255,255);
+color: rgb(11, 7, 4);
+}
+</string>
+            </property>
+            <property name="text">
+             <string>16</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="9">
+           <widget class="QLabel" name="label_11">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: black;
+}</string>
+            </property>
+            <property name="text">
+             <string>min</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="10">
+           <widget class="QLineEdit" name="lineEdit_stime_5">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+background: rgb(255,255,255);
+color: rgb(11, 7, 4);
+}
+</string>
+            </property>
+            <property name="text">
+             <string>20</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="11">
+           <widget class="QLabel" name="label_12">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: black;
+}</string>
+            </property>
+            <property name="text">
+             <string>sec</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="12">
+           <widget class="QLineEdit" name="lineEdit_stime_6">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+background: rgb(255,255,255);
+color: rgb(11, 7, 4);
+}
+</string>
+            </property>
+            <property name="text">
+             <string>36</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="13">
+           <widget class="QLabel" name="label_13">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: black;
+}</string>
+            </property>
+            <property name="text">
+             <string>ms</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="14">
+           <widget class="QLineEdit" name="lineEdit_stime_7">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+background: rgb(255,255,255);
+color: rgb(11, 7, 4);
+}
+</string>
+            </property>
+            <property name="text">
+             <string>895</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QFrame" name="frame_4">
+         <property name="minimumSize">
+          <size>
+           <width>805</width>
+           <height>57</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>805</width>
+           <height>57</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame{
+background: #F5FAFE;
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_6">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_2">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: rgb(16, 19, 7);
+font-weight: bold;
+font-size: 16px;
+}</string>
+            </property>
+            <property name="text">
+             <string>End Time </string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="label_14">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: black;
+}</string>
+            </property>
+            <property name="text">
+             <string>Year</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLineEdit" name="lineEdit_etime_1">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+background: rgb(255,255,255);
+color: rgb(11, 7, 4);
+}
+</string>
+            </property>
+            <property name="text">
+             <string>2021</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QLabel" name="label_15">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: black;
+}</string>
+            </property>
+            <property name="text">
+             <string>Month</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QLineEdit" name="lineEdit_etime_2">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+background: rgb(255,255,255);
+color: rgb(11, 7, 4);
+}
+</string>
+            </property>
+            <property name="text">
+             <string>8</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="5">
+           <widget class="QLabel" name="label_16">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: black;
+}</string>
+            </property>
+            <property name="text">
+             <string>Day</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="6">
+           <widget class="QLineEdit" name="lineEdit_etime_3">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+background: rgb(255,255,255);
+color: rgb(11, 7, 4);
+}
+</string>
+            </property>
+            <property name="text">
+             <string>18</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="7">
+           <widget class="QLabel" name="label_17">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: black;
+}</string>
+            </property>
+            <property name="text">
+             <string>Hour</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="8">
+           <widget class="QLineEdit" name="lineEdit_etime_4">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+background: rgb(255,255,255);
+color: rgb(11, 7, 4);
+}
+</string>
+            </property>
+            <property name="text">
+             <string>16</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="9">
+           <widget class="QLabel" name="label_18">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: black;
+}</string>
+            </property>
+            <property name="text">
+             <string>min</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="10">
+           <widget class="QLineEdit" name="lineEdit_etime_5">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+background: rgb(255,255,255);
+color: rgb(11, 7, 4);
+}
+</string>
+            </property>
+            <property name="text">
+             <string>22</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="11">
+           <widget class="QLabel" name="label_19">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: black;
+}</string>
+            </property>
+            <property name="text">
+             <string>sec</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="12">
+           <widget class="QLineEdit" name="lineEdit_etime_6">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+background: rgb(255,255,255);
+color: rgb(11, 7, 4);
+}
+</string>
+            </property>
+            <property name="text">
+             <string>36</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="13">
+           <widget class="QLabel" name="label_20">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+color: black;
+}</string>
+            </property>
+            <property name="text">
+             <string>ms</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="14">
+           <widget class="QLineEdit" name="lineEdit_etime_7">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+background: rgb(255,255,255);
+color: rgb(11, 7, 4);
+}
+</string>
+            </property>
+            <property name="text">
+             <string>895</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QFrame" name="frame_2">
+         <property name="minimumSize">
+          <size>
+           <width>447</width>
+           <height>67</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>447</width>
+           <height>67</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame{
+border: None;
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pushButton_2ndwindow">
+            <property name="minimumSize">
+             <size>
+              <width>131</width>
+              <height>41</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>131</width>
+              <height>41</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton {
+  background:  #000000;
+  border-radius: 10px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+
+QPushButton:hover {
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}</string>
+            </property>
+            <property name="text">
+             <string>Load Data</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="pushButton_start">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>131</width>
+              <height>41</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton {
+  background:  #000000;
+  border-radius: 10px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+
+QPushButton:hover {
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}</string>
+            </property>
+            <property name="text">
+             <string>Import</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="pushButton_save">
+            <property name="minimumSize">
+             <size>
+              <width>131</width>
+              <height>41</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>131</width>
+              <height>41</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: transparent;
+}</string>
+            </property>
+            <property name="text">
+             <string>Save</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton_getmat">
+      <property name="minimumSize">
+       <size>
+        <width>116</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>103</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
